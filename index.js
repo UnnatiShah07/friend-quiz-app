@@ -13,16 +13,16 @@ var userName = readlineSync.question("What is your name? ");
 console.log("Welcome " + userName + "\nLet's see How much you know Unnati?\n");
 
 var que = [{
-  question: "\nWhat is my favorite movie? \na.Yeh jawani hai deewani \nb.Hera feri\n",
+  question: "\nWhat is my favorite colour? \na.Black \nb.Peach\n",
+  answer: "b"
+},
+{
+  question: "\nWhat is my favorite hobby? \na.Planting \nb.Drawing\n",
   answer: "a"
 },
 {
-  question: "\nWhat is my favorite drink? \na.Coffee \nb.Tea\n",
-  answer: "b"
-},
-{
-  question: "\nWhat is my favorite ice cream flavor? \na.Chocolate \nb.Vanilla\n",
-  answer: "b"
+  question: "\nWhat is I am? \na.Early Bird \nb.Night Owl\n",
+  answer: "a"
 },
 {
   question: "\nWhat is my favorite sweet? \na.Gulab jamun \nb.Kaju katli\n",
